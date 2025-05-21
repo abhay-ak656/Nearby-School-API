@@ -12,10 +12,11 @@ const geolib=require('geolib');
 const port=3003;
 
 const connection=mysql.createConnection({
-    host:'localhost',
-    user:'root',
-    password:process.env.SQL_PASSWORD,
-     database:process.env.SQL_DATABASE_NAME
+    host:process.env.MYSQLHOST,
+    user:process.env.MYSQLUSER,
+    password:process.env.MYSQLPASSWORD,
+     database:process.env.MYSQLDATABASE,
+     port:process.env.MYSQLPORT
 })
 
 app.use(express.urlencoded({extended:true}));
