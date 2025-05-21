@@ -22,24 +22,24 @@ Example request
 
 [
 {
-  "id": "0f48eff7-d474-4998-8c92-c4634358ec9c",
-    "name": "Mount Mary English High School",
-    "address": "Vasai",
-    "latitude": 19.3826,
-    "longitude": 72.832
-  },
-  {
-    "id": "7c609a91-0e96-4e49-9086-480b1c06c310",
-    "name": "Viva college",
-    "address": "virar",
-    "latitude": 19.4564,
-    "longitude": 72.7925
-  },
-  ...
-]
+  "id": "0f48eff7-d474-4998-8c92-c4634358ec9c",<br>
+    "name": "Mount Mary English High School",<br>
+    "address": "Vasai",<br>
+    "latitude": 19.3826,<br>
+    "longitude": 72.832<br>
+  },<br>
+  {<br>
+    "id": "7c609a91-0e96-4e49-9086-480b1c06c310",<br>
+    "name": "Viva college",<br>
+    "address": "virar",<br>
+    "latitude": 19.4564,<br>
+    "longitude": 72.7925<br>
+  },<br>
+  
+]<br>
 
 
-
+<hr>
 <h1>API: /addSchool</h1>
  <p>Description</p>
 <i>This API allows you to add new schools to the database. These schools will then appear in the list of nearby schools when someone searches by coordinates.</i>
@@ -51,18 +51,18 @@ Example request
 Request Body (JSON)
 Send the following keys in the body as raw JSON:
 
-name---	string	--Name of the school
-address	--string	--Address of the school
-latitude	--float	--Latitude coordinate of the school
-longitude	--float	--Longitude coordinate of the school
+name---	string	--Name of the school<br>
+address	--string	--Address of the school<br>
+latitude	--float	--Latitude coordinate of the school<br>
+longitude	--float	--Longitude coordinate of the school<br>
 
 
 <h2>example request body</h2>
 {
-  "name": "Narse Monjee School",
-  "address": "Vile Parle",
-  "latitude": 19.0968,
-  "longitude": 72.8517
+  "name": "Narse Monjee School",<br>
+  "address": "Vile Parle",<br>
+  "latitude": 19.0968,<br>
+  "longitude": 72.8517<br>
 }
 
 
